@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Student Informations</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul >
+                <li class="tit">ASAC</li>
+                <li class="l1"><a href="#">Home</a> </li>
+                <li class="l2"><a href="#">About</a> </li>
+                <li class="l3"><a href="#">Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="tabel-saction"></section>
+        <section id="main-form">
+            <form id="Students-list">
+                <fieldset>
+                <label for="students-email ">Students Email:</label><br>
+                <input type="text" id="email" name="email " value="email"><br>
+                <label for="students-mobile">Students Mobile:</label><br>
+                <input type="number" id="mobile" name="mobile" value="mobile"><br><br>
+                <label>Tuition</label>
+                <select id = "myList">
+                <option value = "100JD">100JD</option>
+                <option value = "500JD">500JD</option>
+                <option value = "1000JD">1000JD</option>
+                </select>
+                <input type="submit" value="Submit">
+                </fieldset>
+              </form> 
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
